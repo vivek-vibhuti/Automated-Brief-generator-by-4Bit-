@@ -227,3 +227,54 @@
     animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   }
 }
+/* Force scrollable content */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto !important;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 1 auto;
+  height: auto;
+  min-height: 0;
+  overflow-y: visible;
+  padding-bottom: 3rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  height: auto;
+  overflow-y: visible;
+}
+
+/* Fix for retro cards */
+.retro-card {
+  max-height: none !important;
+  overflow-y: visible;
+}
+
+/* Ensure all sections are visible */
+section {
+  margin-bottom: 2rem;
+  overflow-y: visible;
+}
+
+/* Make the generate page content scrollable */
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.flex-grow {
+  flex-grow: 1;
+  overflow-y: visible;
+}
