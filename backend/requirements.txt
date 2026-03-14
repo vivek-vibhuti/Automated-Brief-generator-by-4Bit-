@@ -1,0 +1,24 @@
+Django>=5.0
+djangorestframework>=3.14
+django-cors-headers>=4.3
+python-dotenv>=1.0
+PyPDF2>=3.0
+python-docx>=1.1
+sentence-transformers>=2.2
+chromadb>=0.4
+faiss-cpu
+numpy
+google-generativeai>=0.3
+groq>=0.4
+anthropic>=0.18
+tiktoken
+nltk>=3.8
+pillow
+pdfplumber==0.10.3
+python-pptx==1.0.2
+# For vector graphics and animations
+# For vector graphics and animations - Python 3.13 compatible
+numpy==2.2.4
+matplotlib==3.10.1
+python-pptx==1.0.2
+lxml==5.3.1
