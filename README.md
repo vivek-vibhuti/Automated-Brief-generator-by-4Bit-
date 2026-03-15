@@ -1,6 +1,7 @@
 # 📋 **Complete README.md for Mr. Clarke's Automated Briefing Generator**
 
 ```markdown
+
 # Mr. Clarke's Automated Briefing Generator
 
 > *"The party needs to visually brief the town sheriff and other allies."*  
